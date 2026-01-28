@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 
     - name: Set up Python 3.10
-      uses: actions/setup-python@0b93645e9914c23da4ad301f1ad2ccee25c6bc6a 
+      uses: actions/setup-python@v3 
       with:
         python-version: '3.10'
     - name: Add conda to system path
